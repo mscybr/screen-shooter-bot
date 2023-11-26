@@ -1,0 +1,26 @@
+{
+  "name": "screen-shooter-bot",
+  "private": "false",
+  "version": "1.0.0",
+  "description": "Takes a browser based screen shot of local html files",
+  "main": "screenshooter.js",
+  "scripts": {
+    "start": "node screenshooter.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "puppeteer": "^1.14.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/mscybr/screen-shooter-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "puppeteer"
+  ]
+}
